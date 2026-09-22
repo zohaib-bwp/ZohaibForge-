@@ -1,75 +1,312 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="M Zohaib Khalid is a full-stack web developer and IT support professional based in Bahawalpur, Pakistan.">
-  <meta name="theme-color" content="#0b0d0e">
-  <title>M Zohaib Khalid — Developer & IT Support</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="grain" aria-hidden="true"></div>
-  <header class="header">
-    <a class="logo" href="#top" aria-label="M Zohaib Khalid home"><span class="logo-mark">MZ</span><span>Zohaib Khalid</span></a>
-    <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050708" />
+    <meta name="description" content="M Zohaib Khalid is a full-stack web developer and IT support professional building modern apps and reliable systems." />
+    <title>M Zohaib Khalid | Cyber Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="header">
+      <div class="logo" aria-label="Home">
+        <span class="logo-mark">MZ</span>
+        <span>zohaib-bwp</span>
+      </div>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <a class="header-cta" href="#contact">let's talk <span>→</span></a>
+
+      <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
+        <i></i><i></i><i></i>
+      </button>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="#about">about</a>
+      <a href="#work">work</a>
+      <a href="#services">services</a>
+      <a href="#contact">contact</a>
+      <a class="mobile-email" href="mailto:zohaibmalik99880@gmail.com">zohaibmalik99880@gmail.com</a>
     </nav>
-    <a class="header-cta" href="mailto:zohaibmalik99880@gmail.com">Let's talk <span>↗</span></a>
-    <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
-  </header>
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#about">About</a><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a>
-    <a class="mobile-email" href="mailto:zohaibmalik99880@gmail.com">zohaibmalik99880@gmail.com ↗</a>
-  </div>
 
-  <main id="top">
-    <section class="hero section-pad">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="live-dot"></span> Available for selected projects</p>
-        <h1>I build digital<br><em>experiences</em> that work.</h1>
-        <p class="hero-text">Full-stack developer and IT support professional helping people and businesses turn complex problems into clear, reliable solutions.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↓</span></a><a class="text-link" href="mailto:zohaibmalik99880@gmail.com">Start a conversation <span>↗</span></a></div>
-      </div>
-      <div class="hero-visual reveal reveal-delay" aria-label="Developer profile visual">
-        <div class="visual-card">
-          <div class="card-top"><span>PROFILE / 01</span><span class="card-signal">● ONLINE</span></div>
-          <div class="avatar">MZ<span>.</span></div>
-          <div class="visual-name"><strong>M Zohaib Khalid</strong><span>Developer · Problem solver</span></div>
-          <div class="code-lines"><span><b>01</b> const craft = <i>"with intent"</i>;</span><span><b>02</b> const stack = [<i>"Python"</i>, <i>"Flask"</i>];</span><span><b>03</b> <strong>return</strong> usefulProducts();</span></div>
+    <main>
+      <section class="hero section-pad">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="live-dot"></span> system online</div>
+          <h1>
+            hi, i'm <em>zohaib</em>.<br />
+            i build <em>digital systems</em> that work.
+          </h1>
+          <p class="hero-text">
+            I’m a full-stack developer and IT support professional building reliable web apps,
+            backend systems, and technical solutions that keep business workflows smooth.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">view projects <span>→</span></a>
+            <a class="text-link" href="#contact">book a call <span>→</span></a>
+          </div>
         </div>
-        <div class="floating-note"><span>BAHAWALPUR</span><strong>PK</strong></div>
+
+        <div class="hero-visual reveal reveal-delay" aria-label="Developer card">
+          <div class="visual-card">
+            <div class="card-top">
+              <span class="art-label">status // ready</span>
+              <span class="card-signal">online</span>
+            </div>
+
+            <div class="avatar">M<span>Z</span></div>
+
+            <div class="visual-name">
+              <strong>M Zohaib Khalid</strong>
+              <span>full-stack dev / it support</span>
+            </div>
+
+            <div class="code-lines" aria-hidden="true">
+              <div><b>01</b> <i>const</i> stack <strong>=</strong> ["Python", "Flask", "MySQL"]</div>
+              <div><b>02</b> <i>let</i> focus <strong>=</strong> "web apps + systems"</div>
+              <div><b>03</b> <i>if</i> (support) <strong>{</strong> resolve(); <strong>}</strong></div>
+            </div>
+          </div>
+
+          <div class="floating-note">
+            <span>projects</span>
+            <strong>08+</strong>
+          </div>
+        </div>
+
+        <div class="scroll-cue"><span>scroll</span><i></i></div>
+      </section>
+
+      <section class="intro section-pad" id="about">
+        <div class="intro-grid">
+          <div class="intro-copy reveal">
+            <div class="section-label"><span>//</span> <span>about me</span></div>
+            <h2>developer, problem-solver, and the person who keeps systems connected.</h2>
+          </div>
+
+          <div class="intro-body reveal reveal-delay">
+            <p>
+              I’m a BS Information Technology graduate with experience in web development,
+              backend engineering, and IT support in a telecom environment.
+            </p>
+            <p>
+              My work sits between code and operations — building clean interfaces, creating
+              practical backend logic, and helping real systems stay online and reliable.
+            </p>
+            <a class="text-link" href="#contact">get in touch <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="metrics reveal">
+          <div>
+            <strong>04+</strong>
+            <span>core areas</span>
+          </div>
+          <div>
+            <strong>08+</strong>
+            <span>skills</span>
+          </div>
+          <div>
+            <strong>24/7</strong>
+            <span>mindset</span>
+          </div>
+          <div>
+            <strong>∞</strong>
+            <span>learning</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-pad" id="work">
+        <div class="section-heading reveal">
+          <div class="section-label"><span>//</span> <span>selected work</span></div>
+          <h2>projects <em>built</em> for real problems.</h2>
+          <p>Focused on web applications, backend services, and useful systems that solve daily challenges.</p>
+        </div>
+
+        <div class="projects">
+          <article class="project project-large reveal">
+            <div class="project-art art-blue">
+              <div class="nodes" aria-hidden="true">
+                <i></i><i></i><i></i>
+                <b></b><b></b>
+              </div>
+              <div class="art-label">project 01 // product marketing</div>
+              <div class="art-window">
+                <i></i><i></i><i></i>
+                <div class="art-bar"></div>
+                <div class="art-blocks"><b></b><b></b><b></b></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Product Marketing</h3>
+                <p>E-commerce platform with catalog, cart, orders, login flows, and database-backed admin features.</p>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+            <div class="tags">
+              <span>Python</span>
+              <span>Flask</span>
+              <span>MySQL</span>
+              <span>HTML/CSS</span>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-art art-green">
+              <div class="sentiment">
+                <span>sentiment</span>
+                <strong>92%</strong>
+                <div><i></i></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Sentiment Analysis</h3>
+                <p>Text-classification dashboard using NLP and Flask for real-time user feedback analysis.</p>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+            <div class="tags">
+              <span>Python</span>
+              <span>NLP</span>
+              <span>ML</span>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-art art-orange">
+              <div class="inventory">
+                <div>inventory // PKR</div>
+                <strong>24,000+</strong>
+                <small>ready to track</small>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Super Store Management</h3>
+                <p>Inventory and sales concept for product tracking, category management, and warehouse planning.</p>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+            <div class="tags">
+              <span>Android</span>
+              <span>Inventory</span>
+              <span>Products</span>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-art art-violet">
+              <div class="inventory">
+                <div>ledger // blockchain</div>
+                <strong>chain sync</strong>
+                <small>systems concept</small>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Educational Blockchain App</h3>
+                <p>Academic project focused on blockchain logic, academic records, and secure educational traceability.</p>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+            <div class="tags">
+              <span>Web</span>
+              <span>Blockchain</span>
+              <span>IT</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="services section-pad" id="services">
+        <div class="services-head reveal">
+          <div class="section-label"><span>//</span> <span>what i do</span></div>
+          <h2>building <em>real</em> systems with code and support.</h2>
+          <p>From backend logic to issue resolution, I focus on practical software and dependable technical delivery.</p>
+        </div>
+
+        <div class="service-list">
+          <article class="reveal">
+            <span>01</span>
+            <div>
+              <h3>web development</h3>
+              <p>Responsive, modern interfaces paired with clean backend logic and scalable architecture.</p>
+            </div>
+            <b>↗</b>
+          </article>
+
+          <article class="reveal">
+            <span>02</span>
+            <div>
+              <h3>software engineering</h3>
+              <p>Useful tools and workflows designed around real user needs, maintainable logic, and data-driven decisions.</p>
+            </div>
+            <b>↗</b>
+          </article>
+
+          <article class="reveal">
+            <span>03</span>
+            <div>
+              <h3>it support</h3>
+              <p>Issue analysis, troubleshooting, and operational assistance for digital systems and telecom environments.</p>
+            </div>
+            <b>↗</b>
+          </article>
+
+          <article class="reveal">
+            <span>04</span>
+            <div>
+              <h3>design support</h3>
+              <p>Clean visuals, presentation assets, and polished materials that support stronger communication.</p>
+            </div>
+            <b>↗</b>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="contact-inner reveal">
+          <div class="section-label"><span>//</span> <span>contact</span></div>
+          <h2>let’s build something <em>useful</em>.</h2>
+          <p>
+            Have a project, technical requirement, or collaboration idea? Let’s talk and turn it into a working solution.
+          </p>
+
+          <a class="contact-email" href="mailto:zohaibmalik99880@gmail.com">
+            <span>email</span> zohaibmalik99880@gmail.com
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <span class="logo-mark">MZ</span>
+        <span>© <span id="year"></span> M Zohaib Khalid</span>
       </div>
-      <div class="scroll-cue"><span>Scroll to explore</span><i></i></div>
-    </section>
-
-    <section class="intro section-pad" id="about">
-      <div class="section-label"><span>01</span><span>About me</span></div>
-      <div class="intro-grid">
-        <h2>Technology should feel <em>human.</em></h2>
-        <div class="intro-body"><p>I'm M Zohaib Khalid, a BS Information Technology graduate from The Islamia University of Bahawalpur. I build web applications with Python, Flask and MySQL, and work in IT support within a telecommunications environment.</p><p>My approach is practical: understand the problem, make the experience clear, and build something dependable.</p><a class="text-link" href="https://www.linkedin.com/in/muhammad-zohaib-khalid/" target="_blank" rel="noopener">More about my journey <span>↗</span></a></div>
+      <div>
+        <a href="https://github.com/zohaib-bwp" target="_blank" rel="noreferrer">github</a>
+        <a href="https://www.linkedin.com/in/muhammad-zohaib-khalid/" target="_blank" rel="noreferrer">linkedin</a>
       </div>
-      <div class="metrics"><div><strong>04+</strong><span>Project areas</span></div><div><strong>08+</strong><span>Core skills</span></div><div><strong>24/7</strong><span>Support mindset</span></div><div><strong>∞</strong><span>Curiosity</span></div></div>
-    </section>
+    </footer>
 
-    <section class="work section-pad" id="work">
-      <div class="section-heading"><div class="section-label"><span>02</span><span>Selected work</span></div><h2>Ideas into <em>impact.</em></h2><p>A few projects from my development journey. Each one started with a real need and became an opportunity to learn.</p></div>
-      <div class="projects">
-        <a class="project project-large reveal" href="https://github.com/zohaib-bwp/" target="_blank" rel="noopener"><div class="project-art art-blue"><span class="art-label">E-COMMERCE / 01</span><div class="art-window"><i></i><i></i><i></i><div class="art-bar"></div><div class="art-blocks"><b></b><b></b><b></b></div></div></div><div class="project-info"><div><h3>Product Marketing</h3><p>E-commerce platform with catalog, search, authentication, cart, checkout and database-backed management.</p></div><span class="arrow">↗</span></div><div class="tags"><span>Python</span><span>Flask</span><span>MySQL</span></div></a>
-        <a class="project reveal reveal-delay" href="https://github.com/zohaib-bwp/" target="_blank" rel="noopener"><div class="project-art art-green"><span class="art-label">MACHINE LEARNING / 02</span><div class="sentiment"><span>positive</span><strong>86%</strong><div><i></i></div></div></div><div class="project-info"><div><h3>Sentiment Analysis</h3><p>NLP project classifying text sentiment through a Flask-powered interface.</p></div><span class="arrow">↗</span></div><div class="tags"><span>Python</span><span>NLP</span><span>Flask</span></div></a>
-        <a class="project reveal" href="https://github.com/zohaib-bwp/" target="_blank" rel="noopener"><div class="project-art art-orange"><span class="art-label">MANAGEMENT / 03</span><div class="inventory"><div>INVENTORY</div><strong>PKR 45,000</strong><small>+ Add product</small></div></div><div class="project-info"><div><h3>Super Store Management</h3><p>Product management concept for organizing store inventory and categories.</p></div><span class="arrow">↗</span></div><div class="tags"><span>Android</span><span>Inventory</span></div></a>
-        <a class="project reveal reveal-delay" href="https://github.com/zohaib-bwp/" target="_blank" rel="noopener"><div class="project-art art-violet"><span class="art-label">ACADEMIA / 04</span><div class="nodes"><i></i><i></i><i></i><b></b><b></b></div></div><div class="project-info"><div><h3>Educational Blockchain</h3><p>Academic concept exploring blockchain-oriented functionality for education.</p></div><span class="arrow">↗</span></div><div class="tags"><span>Web</span><span>Blockchain</span></div></a>
-      </div>
-    </section>
-
-    <section class="services section-pad" id="services"><div class="section-label"><span>03</span><span>What I do</span></div><div class="services-head"><h2>Useful by design.<br><em>Reliable by default.</em></h2><p>From first idea to ongoing support, I bring a balanced mix of technical thinking and attention to detail.</p></div><div class="service-list"><article><span>01</span><div><h3>Web development</h3><p>Responsive, functional websites and applications with thoughtful frontends and Python backends.</p></div><b>↗</b></article><article><span>02</span><div><h3>Software & databases</h3><p>Practical solutions focused on useful workflows, structured data and maintainable code.</p></div><b>↗</b></article><article><span>03</span><div><h3>IT support</h3><p>Troubleshooting, issue analysis and operational support for IT and telecom environments.</p></div><b>↗</b></article><article><span>04</span><div><h3>Visual design</h3><p>Clean social, presentation and supporting visuals created with Canva and a clear purpose.</p></div><b>↗</b></article></div></section>
-
-    <section class="contact section-pad" id="contact"><div class="contact-inner"><div class="section-label"><span>04</span><span>Get in touch</span></div><h2>Have an idea?<br><em>Let's make it real.</em></h2><p>Whether you have a project in mind, a technical question, or just want to connect — my inbox is open.</p><a class="contact-email" href="mailto:zohaibmalik99880@gmail.com">zohaibmalik99880@gmail.com <span>↗</span></a></div></section>
-  </main>
-  <footer class="footer"><div><span class="logo-mark">MZ</span><span>© <span id="year"></span> M Zohaib Khalid</span></div><div><a href="https://github.com/zohaib-bwp/" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/muhammad-zohaib-khalid/" target="_blank" rel="noopener">LinkedIn ↗</a><span>Bahawalpur, PK</span></div></footer>
-  <script src="script.js" defer></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
