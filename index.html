@@ -3,309 +3,264 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#050708" />
-    <meta name="description" content="M Zohaib Khalid is a full-stack web developer and IT support professional building modern apps and reliable systems." />
-    <title>M Zohaib Khalid | Cyber Portfolio</title>
+    <meta name="description" content="M Zohaib Khalid is a full-stack developer and IT support professional building web apps, systems, and reliable digital experiences." />
+    <meta name="theme-color" content="#0a0d12" />
+    <title>M Zohaib Khalid | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="grain" aria-hidden="true"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="#top" class="brand" aria-label="M Zohaib Khalid home">
+            <span class="brand-mark">MZ</span>
+            <span class="brand-text">zohaib-bwp</span>
+          </a>
 
-    <header class="header">
-      <div class="logo" aria-label="Home">
-        <span class="logo-mark">MZ</span>
-        <span>zohaib-bwp</span>
-      </div>
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+          </nav>
 
-      <nav class="desktop-nav" aria-label="Main navigation">
-        <a href="#about">about</a>
-        <a href="#work">work</a>
-        <a href="#services">services</a>
-        <a href="#contact">contact</a>
+          <a class="header-button" href="#contact">Let’s talk</a>
+
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
       </nav>
 
-      <a class="header-cta" href="#contact">let's talk <span>→</span></a>
+      <main id="top">
+        <section class="hero section">
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <div class="status-pill"><span class="status-dot"></span> Available for work</div>
+              <h1>
+                Hi, I’m <span>M Zohaib Khalid</span><br />
+                Building digital systems that work.
+              </h1>
+              <p>
+                Full-stack web developer and IT support professional focused on reliable web apps,
+                backend systems, and practical solutions that help teams move faster.
+              </p>
 
-      <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
-        <i></i><i></i><i></i>
-      </button>
-    </header>
-
-    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
-      <a href="#about">about</a>
-      <a href="#work">work</a>
-      <a href="#services">services</a>
-      <a href="#contact">contact</a>
-      <a class="mobile-email" href="mailto:zohaibmalik99880@gmail.com">zohaibmalik99880@gmail.com</a>
-    </nav>
-
-    <main>
-      <section class="hero section-pad">
-        <div class="hero-copy reveal">
-          <div class="eyebrow"><span class="live-dot"></span> system online</div>
-          <h1>
-            hi, i'm <em>zohaib</em>.<br />
-            i build <em>digital systems</em> that work.
-          </h1>
-          <p class="hero-text">
-            I’m a full-stack developer and IT support professional building reliable web apps,
-            backend systems, and technical solutions that keep business workflows smooth.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="#work">view projects <span>→</span></a>
-            <a class="text-link" href="#contact">book a call <span>→</span></a>
-          </div>
-        </div>
-
-        <div class="hero-visual reveal reveal-delay" aria-label="Developer card">
-          <div class="visual-card">
-            <div class="card-top">
-              <span class="art-label">status // ready</span>
-              <span class="card-signal">online</span>
-            </div>
-
-            <div class="avatar">M<span>Z</span></div>
-
-            <div class="visual-name">
-              <strong>M Zohaib Khalid</strong>
-              <span>full-stack dev / it support</span>
-            </div>
-
-            <div class="code-lines" aria-hidden="true">
-              <div><b>01</b> <i>const</i> stack <strong>=</strong> ["Python", "Flask", "MySQL"]</div>
-              <div><b>02</b> <i>let</i> focus <strong>=</strong> "web apps + systems"</div>
-              <div><b>03</b> <i>if</i> (support) <strong>{</strong> resolve(); <strong>}</strong></div>
-            </div>
-          </div>
-
-          <div class="floating-note">
-            <span>projects</span>
-            <strong>08+</strong>
-          </div>
-        </div>
-
-        <div class="scroll-cue"><span>scroll</span><i></i></div>
-      </section>
-
-      <section class="intro section-pad" id="about">
-        <div class="intro-grid">
-          <div class="intro-copy reveal">
-            <div class="section-label"><span>//</span> <span>about me</span></div>
-            <h2>developer, problem-solver, and the person who keeps systems connected.</h2>
-          </div>
-
-          <div class="intro-body reveal reveal-delay">
-            <p>
-              I’m a BS Information Technology graduate with experience in web development,
-              backend engineering, and IT support in a telecom environment.
-            </p>
-            <p>
-              My work sits between code and operations — building clean interfaces, creating
-              practical backend logic, and helping real systems stay online and reliable.
-            </p>
-            <a class="text-link" href="#contact">get in touch <span>→</span></a>
-          </div>
-        </div>
-
-        <div class="metrics reveal">
-          <div>
-            <strong>04+</strong>
-            <span>core areas</span>
-          </div>
-          <div>
-            <strong>08+</strong>
-            <span>skills</span>
-          </div>
-          <div>
-            <strong>24/7</strong>
-            <span>mindset</span>
-          </div>
-          <div>
-            <strong>∞</strong>
-            <span>learning</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="work section-pad" id="work">
-        <div class="section-heading reveal">
-          <div class="section-label"><span>//</span> <span>selected work</span></div>
-          <h2>projects <em>built</em> for real problems.</h2>
-          <p>Focused on web applications, backend services, and useful systems that solve daily challenges.</p>
-        </div>
-
-        <div class="projects">
-          <article class="project project-large reveal">
-            <div class="project-art art-blue">
-              <div class="nodes" aria-hidden="true">
-                <i></i><i></i><i></i>
-                <b></b><b></b>
+              <div class="hero-actions">
+                <a class="primary-btn" href="#projects">View projects</a>
+                <a class="ghost-btn" href="#contact">Get in touch</a>
               </div>
-              <div class="art-label">project 01 // product marketing</div>
-              <div class="art-window">
-                <i></i><i></i><i></i>
-                <div class="art-bar"></div>
-                <div class="art-blocks"><b></b><b></b><b></b></div>
+
+              <ul class="quick-links" aria-label="Social links">
+                <li><a href="https://github.com/zohaib-bwp" target="_blank" rel="noreferrer">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/muhammad-zohaib-khalid/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                <li><a href="mailto:zohaibmalik99880@gmail.com">Email</a></li>
+              </ul>
+            </div>
+
+            <div class="hero-panel reveal reveal-delay">
+              <div class="panel-header">
+                <span>System status</span>
+                <span class="online-tag">online</span>
+              </div>
+
+              <div class="profile-card">
+                <div class="avatar">MZ</div>
+                <div>
+                  <h2>M Zohaib Khalid</h2>
+                  <p>Full-stack dev / IT support</p>
+                </div>
+              </div>
+
+              <div class="mini-console">
+                <div><span>01</span> const stack = ["Python", "Flask", "MySQL"]</div>
+                <div><span>02</span> let focus = "web apps + systems"</div>
+                <div><span>03</span> if (support) resolveIssue();</div>
+              </div>
+
+              <div class="stats-row">
+                <div>
+                  <strong>8+</strong>
+                  <span>Skills</span>
+                </div>
+                <div>
+                  <strong>24/7</strong>
+                  <span>Mindset</span>
+                </div>
               </div>
             </div>
-            <div class="project-info">
-              <div>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <div class="container">
+            <div class="section-head reveal">
+              <div class="eyebrow">About</div>
+              <h2>Developer, problem-solver, and systems thinker.</h2>
+            </div>
+
+            <div class="about-grid">
+              <div class="about-copy reveal">
+                <p>
+                  I’m a BS Information Technology graduate from The Islamia University of Bahawalpur,
+                  currently working in IT support within a telecommunications environment while building
+                  practical web applications and backend systems.
+                </p>
+                <p>
+                  My work blends technology, logic, and support. I enjoy building interfaces that are clean,
+                  reliable, and useful, while also solving real operational issues behind the scenes.
+                </p>
+              </div>
+
+              <div class="fact-box reveal reveal-delay">
+                <div><span>Focus</span><strong>Web + software development</strong></div>
+                <div><span>Core skills</span><strong>Python, Flask, MySQL, JavaScript</strong></div>
+                <div><span>Current role</span><strong>IT Support • Telecom systems</strong></div>
+                <div><span>Design</span><strong>Canva and UI polish</strong></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="container">
+            <div class="section-head reveal">
+              <div class="eyebrow">Projects</div>
+              <h2>Selected work and systems I’ve built.</h2>
+            </div>
+
+            <div class="projects-grid">
+              <article class="project-card reveal">
+                <div class="project-top">
+                  <span>01</span>
+                  <em>Built</em>
+                </div>
                 <h3>Product Marketing</h3>
-                <p>E-commerce platform with catalog, cart, orders, login flows, and database-backed admin features.</p>
-              </div>
-              <span class="arrow">↗</span>
-            </div>
-            <div class="tags">
-              <span>Python</span>
-              <span>Flask</span>
-              <span>MySQL</span>
-              <span>HTML/CSS</span>
-            </div>
-          </article>
+                <p>E-commerce platform with catalog, cart, authentication, orders, and database-backed management.</p>
+                <div class="tag-row">
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>MySQL</span>
+                </div>
+              </article>
 
-          <article class="project reveal">
-            <div class="project-art art-green">
-              <div class="sentiment">
-                <span>sentiment</span>
-                <strong>92%</strong>
-                <div><i></i></div>
-              </div>
-            </div>
-            <div class="project-info">
-              <div>
+              <article class="project-card reveal reveal-delay">
+                <div class="project-top">
+                  <span>02</span>
+                  <em>Built</em>
+                </div>
                 <h3>Sentiment Analysis</h3>
-                <p>Text-classification dashboard using NLP and Flask for real-time user feedback analysis.</p>
-              </div>
-              <span class="arrow">↗</span>
-            </div>
-            <div class="tags">
-              <span>Python</span>
-              <span>NLP</span>
-              <span>ML</span>
-            </div>
-          </article>
+                <p>ML-powered sentiment dashboard using Flask and NLP for understanding user feedback.</p>
+                <div class="tag-row">
+                  <span>Python</span>
+                  <span>NLP</span>
+                  <span>ML</span>
+                </div>
+              </article>
 
-          <article class="project reveal">
-            <div class="project-art art-orange">
-              <div class="inventory">
-                <div>inventory // PKR</div>
-                <strong>24,000+</strong>
-                <small>ready to track</small>
-              </div>
-            </div>
-            <div class="project-info">
-              <div>
+              <article class="project-card reveal">
+                <div class="project-top">
+                  <span>03</span>
+                  <em>Concept</em>
+                </div>
                 <h3>Super Store Management</h3>
-                <p>Inventory and sales concept for product tracking, category management, and warehouse planning.</p>
-              </div>
-              <span class="arrow">↗</span>
-            </div>
-            <div class="tags">
-              <span>Android</span>
-              <span>Inventory</span>
-              <span>Products</span>
-            </div>
-          </article>
+                <p>Inventory and product management concept for a retail ecosystem with category-driven workflows.</p>
+                <div class="tag-row">
+                  <span>Android</span>
+                  <span>Inventory</span>
+                  <span>Products</span>
+                </div>
+              </article>
 
-          <article class="project reveal">
-            <div class="project-art art-violet">
-              <div class="inventory">
-                <div>ledger // blockchain</div>
-                <strong>chain sync</strong>
-                <small>systems concept</small>
-              </div>
-            </div>
-            <div class="project-info">
-              <div>
+              <article class="project-card reveal reveal-delay">
+                <div class="project-top">
+                  <span>04</span>
+                  <em>Concept</em>
+                </div>
                 <h3>Educational Blockchain App</h3>
-                <p>Academic project focused on blockchain logic, academic records, and secure educational traceability.</p>
-              </div>
-              <span class="arrow">↗</span>
+                <p>Academic blockchain-oriented idea focused on secure records, transparency, and educational systems.</p>
+                <div class="tag-row">
+                  <span>Web</span>
+                  <span>Blockchain</span>
+                  <span>IT</span>
+                </div>
+              </article>
             </div>
-            <div class="tags">
-              <span>Web</span>
-              <span>Blockchain</span>
-              <span>IT</span>
+          </div>
+        </section>
+
+        <section id="services" class="section">
+          <div class="container">
+            <div class="section-head reveal">
+              <div class="eyebrow">Services</div>
+              <h2>Technical work I can support.</h2>
             </div>
-          </article>
-        </div>
-      </section>
 
-      <section class="services section-pad" id="services">
-        <div class="services-head reveal">
-          <div class="section-label"><span>//</span> <span>what i do</span></div>
-          <h2>building <em>real</em> systems with code and support.</h2>
-          <p>From backend logic to issue resolution, I focus on practical software and dependable technical delivery.</p>
-        </div>
+            <div class="services-grid">
+              <article class="service-card reveal">
+                <span>01</span>
+                <h3>Web Development</h3>
+                <p>Responsive websites and modern web experiences with backend logic and clean interfaces.</p>
+              </article>
 
-        <div class="service-list">
-          <article class="reveal">
-            <span>01</span>
+              <article class="service-card reveal reveal-delay">
+                <span>02</span>
+                <h3>Software Engineering</h3>
+                <p>Practical systems and workflows designed around maintainable code and real-world needs.</p>
+              </article>
+
+              <article class="service-card reveal">
+                <span>03</span>
+                <h3>IT Support</h3>
+                <p>Troubleshooting, operational support, and technical issue resolution for digital systems.</p>
+              </article>
+
+              <article class="service-card reveal reveal-delay">
+                <span>04</span>
+                <h3>Design Support</h3>
+                <p>Visual polish, presentation materials, and clean creative assets for technical work.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+          <div class="container contact-box reveal">
             <div>
-              <h3>web development</h3>
-              <p>Responsive, modern interfaces paired with clean backend logic and scalable architecture.</p>
+              <div class="eyebrow">Contact</div>
+              <h2>Let’s build something useful.</h2>
             </div>
-            <b>↗</b>
-          </article>
+            <div class="contact-info">
+              <a href="mailto:zohaibmalik99880@gmail.com">zohaibmalik99880@gmail.com</a>
+              <a href="https://github.com/zohaib-bwp" target="_blank" rel="noreferrer">github.com/zohaib-bwp</a>
+              <a href="https://www.linkedin.com/in/muhammad-zohaib-khalid/" target="_blank" rel="noreferrer">linkedin.com/in/muhammad-zohaib-khalid</a>
+            </div>
+          </div>
+        </section>
+      </main>
 
-          <article class="reveal">
-            <span>02</span>
-            <div>
-              <h3>software engineering</h3>
-              <p>Useful tools and workflows designed around real user needs, maintainable logic, and data-driven decisions.</p>
-            </div>
-            <b>↗</b>
-          </article>
-
-          <article class="reveal">
-            <span>03</span>
-            <div>
-              <h3>it support</h3>
-              <p>Issue analysis, troubleshooting, and operational assistance for digital systems and telecom environments.</p>
-            </div>
-            <b>↗</b>
-          </article>
-
-          <article class="reveal">
-            <span>04</span>
-            <div>
-              <h3>design support</h3>
-              <p>Clean visuals, presentation assets, and polished materials that support stronger communication.</p>
-            </div>
-            <b>↗</b>
-          </article>
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© <span id="year"></span> M Zohaib Khalid</p>
+          <div class="footer-links">
+            <a href="https://github.com/zohaib-bwp" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/muhammad-zohaib-khalid/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
         </div>
-      </section>
-
-      <section class="contact section-pad" id="contact">
-        <div class="contact-inner reveal">
-          <div class="section-label"><span>//</span> <span>contact</span></div>
-          <h2>let’s build something <em>useful</em>.</h2>
-          <p>
-            Have a project, technical requirement, or collaboration idea? Let’s talk and turn it into a working solution.
-          </p>
-
-          <a class="contact-email" href="mailto:zohaibmalik99880@gmail.com">
-            <span>email</span> zohaibmalik99880@gmail.com
-          </a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div>
-        <span class="logo-mark">MZ</span>
-        <span>© <span id="year"></span> M Zohaib Khalid</span>
-      </div>
-      <div>
-        <a href="https://github.com/zohaib-bwp" target="_blank" rel="noreferrer">github</a>
-        <a href="https://www.linkedin.com/in/muhammad-zohaib-khalid/" target="_blank" rel="noreferrer">linkedin</a>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <script src="script.js"></script>
   </body>
