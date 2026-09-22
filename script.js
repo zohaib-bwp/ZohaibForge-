@@ -22,7 +22,7 @@
     try {
       initialTheme = localStorage.getItem('theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     } catch (e) {
-      initialTheme = 'light';
+      initialTheme = 'dark';
     }
   }
   applyTheme(initialTheme === 'dark' ? 'dark' : 'light');
